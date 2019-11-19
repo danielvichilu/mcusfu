@@ -1,0 +1,23 @@
+{
+  "name": "mcusfu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielvichilu/mcusfu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielvichilu/mcusfu/issues"
+  },
+  "homepage": "https://github.com/danielvichilu/mcusfu#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.2.0"
+  }
+}

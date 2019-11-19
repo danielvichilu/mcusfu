@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>mcu meeting test</title>
+  <!--
+    // Browser MCU sample server
+    //   https://github.com/mganeko/browser_mcu_server
+    //   browser_mcu_server is provided under MIT license
+    //
+    //   This sample is using https://github.com/mganeko/browser_mcu_core
+    //
+  -->
+  <!--
+  <script src="js/pc_config.js"></script>
+  <script src="js/member_peer.js"></script>
+  <script src="socket.io/socket.io.js"></script>
+  -->
+</head>
+<body>
+  <h3>Browser MCU Member test with iframe</h3>
+  <button id="add_iframe_button"  onclick="addIFrame();">add</button>
+  <button id="remove_iframe_button"  onclick="removeIFrame();">remove</button>
+  &nbsp;&nbsp;
+  <button id="add_iframe5_button"  onclick="addIFrame5();">add 5</button>
+  <button id="remove_all_iframe_button"  onclick="removeAllIFrame();">remove all</button>
+  <div id="container"></div>
+</body>
+<script type="text/javascript">
+  if (navigator.onLine) {
+  console.log('online');
+} else {
+  console.log('offline');
+}
+window.addEventListener('offline', function(e) { console.log('offline'); });
+
+window.addEventListener('online', function(e) { console.log('online'); });
+</script>
+</html>
